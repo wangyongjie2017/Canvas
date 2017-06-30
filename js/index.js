@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // 监听是否离开当前标签页
     document.addEventListener('visibilitychange', function() {
         if (document.visibilityState === 'hidden') {
-            document.title = '(●—●)记得回来';
+            document.title = '记得回来';
         } else document.title = normal_title;
     });
     // 拉伸
